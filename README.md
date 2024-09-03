@@ -1,0 +1,21 @@
+VulnSweep
+VulnSweep is an automated web security assessment tool designed to help you identify vulnerabilities across your web assets. By combining various powerful scanning techniques, VulnSweep simplifies the process of securing your online presence. Whether you're a seasoned security professional or new to the field, this tool offers a user-friendly way to stay ahead of potential threats.
+
+Features
+Domain Information Retrieval: Gather domain registration details using whois.
+Port Scanning: Discover open ports and services on a target using nmap.
+Subdomain Discovery: Identify subdomains associated with your target using Sublist3r.
+Vulnerability Scanning: Scan for vulnerabilities using WPScan and Nikto.
+Organized Output: All scan results are saved in a structured directory, making it easy to review and analyze findings.
+
+
+![image](https://github.com/user-attachments/assets/d67ea4d5-4a24-497f-ac20-9cafe2620af9)
+![image](https://github.com/user-attachments/assets/099e0021-6193-4217-bd80-104149aa4dcf)
+
+
+
+Run the Tool:
+Start the script by running: python3 vulnsweep.py
+
+
+Thanks to the developers of whois, nmap, Sublist3r, WPScan, and Nikto for creating such powerful tools.
