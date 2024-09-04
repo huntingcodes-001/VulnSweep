@@ -27,6 +27,14 @@ python3 vulnsweep.py
 You can either auto install the the requirements, or follow a step by step approach. 
 Before running VulnSweep, ensure that you have the following installed on your system:
 
+
+---------------------------------------------------------------------------------------------------
+Python 3.x: The script is written in Python, so you'll need Python 3 installed.                   |
+```bash                                                                                           |
+sudo apt-get install python3                                                                   
+``` 
+---------------------------------------------------------------------------------------------------
+
 ## For auto installation:-
 Run the install_tools.py script in your terminal
 ```bash
@@ -34,10 +42,6 @@ python3 install_tools.py
 ```
 
 
-Python 3.x: The script is written in Python, so you'll need Python 3 installed.
-```bash
-sudo apt-get install python3
-```
 
 whois: A command-line utility for retrieving domain registration information.
 ```bash
