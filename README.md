@@ -58,4 +58,10 @@ Nikto: A web server scanner that performs comprehensive tests against web server
 sudo apt-get install nikto
 ```
 
+Python Dependency
+```bash
+pip install colorama
+```
+
+
 Thanks to the developers of whois, nmap, Sublist3r, WPScan, and Nikto for creating such powerful tools.
