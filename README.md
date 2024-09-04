@@ -17,9 +17,7 @@ Organized Output: All scan results are saved in a structured directory, making i
 
 
 
-Run the Tool:
-Start the script by running: 
-
+# Usage:
 ```bash
 python3 vulnsweep.py
 ```
