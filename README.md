@@ -74,4 +74,4 @@ pip install colorama
 ```
 
 
-Thanks to the developers of whois, nmap, Sublist3r, WPScan, and Nikto for creating such powerful tools.
+## Thanks to the developers of whois, nmap, Sublist3r, WPScan, and Nikto for creating such powerful tools.
