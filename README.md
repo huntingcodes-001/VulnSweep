@@ -26,4 +26,36 @@ python3 vulnsweep.py
 ## Prerequisites
 Before running VulnSweep, ensure that you have the following installed on your system:
 
+Python 3.x: The script is written in Python, so you'll need Python 3 installed.
+```bash
+sudo apt-get install python3
+```
+
+whois: A command-line utility for retrieving domain registration information.
+```bash
+sudo apt-get install whois
+```
+
+nmap: A network scanning tool used to discover hosts and services on a computer network.
+```bash
+sudo apt-get install nmap
+```
+
+Sublist3r: A subdomain enumeration tool written in Python.
+Clone the repository and install dependencies:
+```bash
+git clone https://github.com/aboul3la/Sublist3r.git /opt/Sublist3r
+pip install -r /opt/Sublist3r/requirements.txt
+```
+
+WPScan: A WordPress security scanner.
+```bash
+sudo gem install wpscan
+```
+
+Nikto: A web server scanner that performs comprehensive tests against web servers.
+```bash
+sudo apt-get install nikto
+```
+
 Thanks to the developers of whois, nmap, Sublist3r, WPScan, and Nikto for creating such powerful tools.
