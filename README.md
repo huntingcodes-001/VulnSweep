@@ -12,7 +12,7 @@ Organized Output: All scan results are saved in a structured directory, making i
 
 
 
-
+# Output
 ![image](https://github.com/user-attachments/assets/7b95c29f-adeb-4410-93a7-5f6b34988bb1)
 
 
