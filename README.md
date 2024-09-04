@@ -18,7 +18,11 @@ Organized Output: All scan results are saved in a structured directory, making i
 
 
 Run the Tool:
-Start the script by running: python3 vulnsweep.py
+Start the script by running: 
+
+```bash
+python3 vulnsweep.py
+```
 
 
 Thanks to the developers of whois, nmap, Sublist3r, WPScan, and Nikto for creating such powerful tools.
