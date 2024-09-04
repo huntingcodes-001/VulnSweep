@@ -17,10 +17,13 @@ Organized Output: All scan results are saved in a structured directory, making i
 
 
 
-# Usage:
+# Usage
 ```bash
 python3 vulnsweep.py
 ```
 
+# Setup
+## Prerequisites
+Before running VulnSweep, ensure that you have the following installed on your system:
 
 Thanks to the developers of whois, nmap, Sublist3r, WPScan, and Nikto for creating such powerful tools.
