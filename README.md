@@ -1,6 +1,6 @@
 # VulnSweep
 
-VulnSweep is an automated web security assessment tool designed to help you identify vulnerabilities across your web assets. By combining various powerful scanning techniques, VulnSweep simplifies the process of securing your online presence. Whether you're a seasoned security professional or new to the field, this tool offers a user-friendly way to stay ahead of potential threats.
+VulnSweep is a CLI based automated web security assessment tool designed to help you identify vulnerabilities across your web assets. By combining various powerful scanning techniques, VulnSweep simplifies the process of securing your online presence. Whether you're a seasoned security professional or new to the field, this tool offers a user-friendly way to stay ahead of potential threats.
 
 # Features
 
