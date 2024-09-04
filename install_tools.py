@@ -2,6 +2,16 @@ import subprocess
 import os
 import sys
 
+def install_pip():
+    try:
+        # Check if pip is installed
+        subprocess.run([sys.executable, "-m", "pip", "--version"], check=True)
+        print("[*] pip is already installed.")
+    except subprocess.CalledProcessError:
+        # Install pip if not installed
+        print("[*] pip not found. Installing pip...")
+        subprocess.run(["sudo", "apt-get", "install", "-y", "python3-pip"], check=True)
+
 def install_tools():
     try:
         # Update package list
@@ -32,4 +42,5 @@ def install_tools():
         sys.exit(1)
 
 if __name__ == "__main__":
+    install_pip()
     install_tools()
